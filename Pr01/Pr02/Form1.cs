@@ -31,13 +31,22 @@ namespace Pr02
                 listBox1.Items.Add(pole[i]);
             }
 
+            Array.Sort(pole);
+
             if (radioButton1.Checked)
             {
-
+                Array.Reverse(pole);
+                foreach (int s in pole)
+                {
+                    listBox2.Items.Add(s);
+                }
             }
             else if (radioButton2.Checked)
             {
-
+                foreach (int s in pole)
+                {
+                    listBox2.Items.Add(s);
+                }
             }
         }
     }
