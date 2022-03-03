@@ -8,3 +8,13 @@ G:\Novacek\Programovani\07.Pole\Pole\Pr01\Pr01\obj\Debug\Pr01.csproj.GenerateRes
 G:\Novacek\Programovani\07.Pole\Pole\Pr01\Pr01\obj\Debug\Pr01.csproj.CoreCompileInputs.cache
 G:\Novacek\Programovani\07.Pole\Pole\Pr01\Pr01\obj\Debug\Pr01.exe
 G:\Novacek\Programovani\07.Pole\Pole\Pr01\Pr01\obj\Debug\Pr01.pdb
+G:\Novacek\Programovani\07.Pole\Pr01\Pr01\bin\Debug\Pr01.exe.config
+G:\Novacek\Programovani\07.Pole\Pr01\Pr01\bin\Debug\Pr01.exe
+G:\Novacek\Programovani\07.Pole\Pr01\Pr01\bin\Debug\Pr01.pdb
+G:\Novacek\Programovani\07.Pole\Pr01\Pr01\obj\Debug\Pr01.csprojAssemblyReference.cache
+G:\Novacek\Programovani\07.Pole\Pr01\Pr01\obj\Debug\Pr01.Form1.resources
+G:\Novacek\Programovani\07.Pole\Pr01\Pr01\obj\Debug\Pr01.Properties.Resources.resources
+G:\Novacek\Programovani\07.Pole\Pr01\Pr01\obj\Debug\Pr01.csproj.GenerateResource.cache
+G:\Novacek\Programovani\07.Pole\Pr01\Pr01\obj\Debug\Pr01.csproj.CoreCompileInputs.cache
+G:\Novacek\Programovani\07.Pole\Pr01\Pr01\obj\Debug\Pr01.exe
+G:\Novacek\Programovani\07.Pole\Pr01\Pr01\obj\Debug\Pr01.pdb

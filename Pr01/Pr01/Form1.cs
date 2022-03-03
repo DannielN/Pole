@@ -21,36 +21,38 @@ namespace Pr01
         {
             listBox1.Items.Clear();
             int n = Convert.ToInt32(textBox1.Text);
-            int[] pole = new int[n];
+            double[] pole = new double[n];
             Random rnd = new Random();
-            int cislo = 0;
-            int max = 0;
-            int min = 1001;
+            double max = 0;
+            double min = 1001;
             int poziceMax = 0;
             int poziceMin = 0;
-            for (int i = 0; i <n; i++)
-            {
-                pole[cislo] = rnd.Next(1, 1000);
-                listBox1.Items.Add(pole[cislo]);
-                if (pole[cislo] > max)
-                {
-                    max = pole[cislo];
-                    pole[poziceMax] = i;
-                }
-                else if (pole[cislo] < min)
-                {
-                    min = pole[cislo];
-                    pole[poziceMin] = i;
-                }
-            }
-            label1.Text = ("Maximum je = " + max);
-            label2.Text = ("Minimum je = " + min);
-            int pomocna = max;
-            pole[poziceMax] = min;
-            pole[poziceMin] = pomocna;
             for (int i = 0; i < n; i++)
             {
-                listBox2.Items.Add(pole[n]);
+                pole[i] = rnd.NextDouble() * (999) + 1;
+                listBox1.Items.Add(pole[i].ToString("F2"));
+                if (pole[i] > max)
+                {
+                    max = pole[i];
+                    poziceMax = i;
+                }
+                if (pole[i] < min)
+                {
+                    min = pole[i];
+                    poziceMin = i;
+                }
+
+            }
+            label1.Text = ("Maximum je = " + max.ToString("F2"));
+            label2.Text = ("Minimum je = " + min.ToString("F2"));
+            
+      
+            pole[poziceMax] = min;
+            pole[poziceMin] = max;
+
+            for (int i = 0; i < n; i++)
+            {
+                listBox2.Items.Add(pole[i].ToString("F2"));
             }
         }
     }
