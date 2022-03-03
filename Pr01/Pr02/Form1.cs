@@ -21,6 +21,7 @@ namespace Pr02
         {
             listBox1.Items.Clear();
             listBox2.Items.Clear();
+
             int n = Convert.ToInt32(textBox1.Text);
             Random rnd = new Random();
             int[] pole = new int[n];
@@ -32,22 +33,22 @@ namespace Pr02
             }
 
             Array.Sort(pole);
+            int max = pole[n-1];
+            int min = pole[0];
+            //1.1.3.5.7.7
 
             if (radioButton1.Checked)
             {
                 Array.Reverse(pole);
+                int druhymax = Array.IndexOf(pole, max-1);
+                label2.Text = ("Druhy maximum je = " + druhymax);
+            }
+          
                 foreach (int s in pole)
                 {
                     listBox2.Items.Add(s);
                 }
-            }
-            else if (radioButton2.Checked)
-            {
-                foreach (int s in pole)
-                {
-                    listBox2.Items.Add(s);
-                }
-            }
+        
         }
     }
 }
