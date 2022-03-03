@@ -20,6 +20,7 @@ namespace Pr01
         private void button1_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
+            listBox2.Items.Clear();
             int n = Convert.ToInt32(textBox1.Text);
             double[] pole = new double[n];
             Random rnd = new Random();
@@ -27,6 +28,8 @@ namespace Pr01
             double min = 1001;
             int poziceMax = 0;
             int poziceMin = 0;
+            double soucet = 0;
+            int pocet = 0;
             for (int i = 0; i < n; i++)
             {
                 pole[i] = rnd.NextDouble() * (999) + 1;
@@ -41,12 +44,13 @@ namespace Pr01
                     min = pole[i];
                     poziceMin = i;
                 }
-
+                soucet += pole[i];
             }
             label1.Text = ("Maximum je = " + max.ToString("F2"));
             label2.Text = ("Minimum je = " + min.ToString("F2"));
-            
-      
+            soucet = (soucet - max) - (min);
+            double prumer = soucet / (n - 2);
+            label3.Text = ("Aritmetický průměr bez maxima a minima je = " + prumer.ToString("F2"));
             pole[poziceMax] = min;
             pole[poziceMin] = max;
 
