@@ -1,0 +1,9 @@
+G:\Novacek\Programovani\07.Pole\Pr1\Pr01\Pr04\bin\Debug\Pr04.exe.config
+G:\Novacek\Programovani\07.Pole\Pr1\Pr01\Pr04\bin\Debug\Pr04.exe
+G:\Novacek\Programovani\07.Pole\Pr1\Pr01\Pr04\bin\Debug\Pr04.pdb
+G:\Novacek\Programovani\07.Pole\Pr1\Pr01\Pr04\obj\Debug\Pr04.Form1.resources
+G:\Novacek\Programovani\07.Pole\Pr1\Pr01\Pr04\obj\Debug\Pr04.Properties.Resources.resources
+G:\Novacek\Programovani\07.Pole\Pr1\Pr01\Pr04\obj\Debug\Pr04.csproj.GenerateResource.cache
+G:\Novacek\Programovani\07.Pole\Pr1\Pr01\Pr04\obj\Debug\Pr04.csproj.CoreCompileInputs.cache
+G:\Novacek\Programovani\07.Pole\Pr1\Pr01\Pr04\obj\Debug\Pr04.exe
+G:\Novacek\Programovani\07.Pole\Pr1\Pr01\Pr04\obj\Debug\Pr04.pdb
