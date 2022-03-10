@@ -33,22 +33,30 @@ namespace Pr02
             }
 
             Array.Sort(pole);
-            int max = pole[n-1];
+            int max = pole[n - 1];
             int min = pole[0];
-            //1.1.3.5.7.7
+            //2.2.3.5.7.7
+            int poziceminima = Array.LastIndexOf(pole, min);
+            int druhmin = pole[poziceminima + 1];
+            int pozicemaxima = Array.IndexOf(pole, max);
+            int druhmax = pole[pozicemaxima - 1];
+
 
             if (radioButton1.Checked)
             {
                 Array.Reverse(pole);
-                int druhymax = Array.IndexOf(pole, max-1);
-                label2.Text = ("Druhy maximum je = " + druhymax);
             }
-          
-                foreach (int s in pole)
-                {
-                    listBox2.Items.Add(s);
-                }
-        
+
+
+            label2.Text = ("Druhy minimum je = " + druhmin);
+            label3.Text = ("Druhy maximum je = " + druhmax);
+
+            foreach (int s in pole)
+            {
+                listBox2.Items.Add(s);
+            }
+
         }
     }
 }
+
